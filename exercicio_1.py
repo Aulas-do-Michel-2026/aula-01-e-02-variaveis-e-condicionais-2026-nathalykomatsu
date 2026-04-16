@@ -20,9 +20,9 @@ Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
 
-nota1 = float(input("Digite a primeira nota:"))
-nota2 = float(input("Digite a segunda nota:"))
-nota3 = float(input("Digite a terceira nota:"))
+nota1 = float(input())
+nota2 = float(input())
+nota3 = float(input())
 
 media = (nota1 + nota2 + nota3) / 3
-print("Média:", round(media, 2))
+print(f"{media:.2f}")
