@@ -55,9 +55,9 @@ Resposta:
 Não
 
 """
-cromossomo = input("Digite o cromossomo: ").strip()
-posicao = int(input("Digite a posição: "))
-genoma = input("Digite o genoma de referência: ").strip()
+cromossomo = input().strip()
+posicao = int(input())
+genoma = input().strip()
 
 if (cromossomo == "chr17" and genoma == "hg19" and 41196312 <= posicao <= 41277500) or \
    (cromossomo == "chr17" and genoma == "hg38" and 43044295 <= posicao <= 43125483):
