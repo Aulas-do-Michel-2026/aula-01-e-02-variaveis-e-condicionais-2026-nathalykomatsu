@@ -52,20 +52,20 @@ Qual país você vai viajar? China
 Resposta:
 Não temos essa moeda em caixa.
 """
-pais = input("Qual país você vai viajar?")
+pais = input().strip()
 
 if pais == "Estados Unidos":
-    reais = float(input("Quantos reais você quer converter?"))
+    reais = float(input())
     valor = reais / 5
     print(f"{valor:.2f} USD")
 
 elif pais == "Argentina":
-    reais = float(input("Quantos reais você quer converter?"))
+    reais = float(input())
     valor = reais * 180
     print(f"{valor:.2f} ARS")
 
 elif pais == "Japão":
-    reais = float(input("Quantos reais você quer converter?"))
+    reais = float(input())
     valor = reais * 30
     print(f"{valor:.2f} JPY")
 
